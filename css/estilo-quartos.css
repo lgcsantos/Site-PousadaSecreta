@@ -1,0 +1,54 @@
+* {box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0px;
+    color: #3d3d3d;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+}
+.container {
+    max-width: 1024px;
+}
+
+.titulo-galeria {
+    background-image: url(../img/fontes/assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh
+}
+
+.titulo-box  {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+   }
+
+.quartos-galeria img{
+    width: 33%;
+    padding-bottom: 10px;
+    border: 4px solid #fff;
+  }
+
+.quarto-informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        
+}
+
+.quarto-informacoes li {
+    width: 25%;
+    text-align: left;
+    
+    
+}
+
+.quartos {
+    display: flex;
+    flex-wrap: rap;
+}
+
+@media (max-width:400px){
+    .quarto-informacoes { flex-direction: column; margin-bottom: 5px 0;}
+}
